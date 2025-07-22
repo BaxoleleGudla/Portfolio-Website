@@ -356,9 +356,29 @@ article .icon {
     height: 90%;
 }
 
+.project-details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .project-title {
     margin: 1rem;
     color: black;
+}
+
+.project-description {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .project-btn {
